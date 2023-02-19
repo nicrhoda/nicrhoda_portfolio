@@ -1,3 +1,9 @@
 {
-    "add code later": "add code later"
+    "short_name": "Portfolio",
+    "name": "nicrhoda_portfolio",
+    "icons": [
+        {
+            "src": ""
+        }
+    ]
 }
