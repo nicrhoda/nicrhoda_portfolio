@@ -1,1 +1,23 @@
-/* add code later */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* colors main - 8DEFD0 secondary/border/navbar - 6E8880 header/footer - 779C93 */
+body {
+    background-color: #1B7D65;
+}
+
+.header {
+    text-align: center;
+    border: solid;
+    border-color: #6E8880;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

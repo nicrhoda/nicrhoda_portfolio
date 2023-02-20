@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Header() {
     return (
-        <div>
+        <div className='header' id='hdr'>
             <h1>Portfolio</h1>
-            <h3>Nicholas Rhoda</h3>
+            <p>Nicholas Rhoda</p>
         </div>
     ) 
 };
