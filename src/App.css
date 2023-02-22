@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-image:url('./Images/galaxy_background.jpg');
 }
 
 
@@ -10,10 +9,17 @@
 body {
     color:#E3EEEB;
     position: relative;
+    background-image:url('./Images/portfolio_background.jpg');
+}
+
+.contentHeading {
+    color: #d0d79c;
 }
 
 .header {
     text-align: center;
+    color: #d0d79c;
+
 }
 
 .navBar {
@@ -22,19 +28,15 @@ body {
     justify-content: center;
 }
 
-.aboutMe {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    max-width: 800px;
-    border: solid;
-}
-
 .btn {
     border-radius: 0.25rem;
     padding: 0.25rem;
     margin: 0.25rem;
 }
 
-
+.btn:hover {
+    color:bisque;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
 
