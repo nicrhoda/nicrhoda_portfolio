@@ -1,0 +1,20 @@
+.navDropdown {
+    border: solid;
+    text-align: right;
+}
+
+.btn:hover {
+    color:bisque;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.navBar {
+    position: relative;
+} 
+
+.btn {
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    margin: 0.25rem;
+}

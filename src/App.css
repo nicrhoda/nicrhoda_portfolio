@@ -10,6 +10,7 @@ body {
     color:#E3EEEB;
     position: relative;
     background-image:url('./Images/portfolio_background.jpg');
+    height: 100vh;
 }
 
 .contentHeading {
@@ -17,26 +18,14 @@ body {
 }
 
 .header {
-    text-align: center;
     color: #d0d79c;
-
 }
 
-.navBar {
+.name {
+    margin-left: 2rem;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.btn {
-    border-radius: 0.25rem;
-    padding: 0.25rem;
-    margin: 0.25rem;
-}
 
-.btn:hover {
-    color:bisque;
-    transition-duration: 300ms;
-    cursor: pointer;
-}
 
