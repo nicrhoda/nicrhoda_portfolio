@@ -65,18 +65,8 @@ footer {
 .profiles {
     display: flex;
     flex-direction: row;
-    margin-right: 50%;
-    margin-left: 50%;
-}
-
-.github {
-    padding: .5rem;
-    border: solid;
-}
-
-.instagram {
-    padding: .5rem;
-    border: solid;
+    justify-content: center;
+    /* fix icon styling later */
 }
 
 
@@ -84,5 +74,15 @@ footer {
 .homePageTopText {
 color:#d0d79c;
 }
+
+.profilePic {
+    border-radius: 50%;
+    max-width: 8rem;
+    max-width: 8rem;
+}
+
+
+/* about page styling */
+
 
 
