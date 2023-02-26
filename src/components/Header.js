@@ -3,9 +3,9 @@ import Navbar from './Navbar/Navbar';
 
 export default function Header() {
     return (
-        <div className='header' id='hdr'>
-            <h2 className='name'>Nicholas Rhoda</h2>
+        <header>
+            <h2 className='name'>_nicrhoda_</h2>
             <div className='navBarComp'><Navbar /></div>
-        </div>
+        </header>
     ) 
 };

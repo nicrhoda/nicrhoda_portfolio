@@ -3,21 +3,27 @@
     margin: 0;
     padding: 0;
 }
-
-
-/* colors main - 1B7D65 secondary/border/navbar - 6E8880 header/footer - 779C93 */
+/* background placement */
 body {
     color:#E3EEEB;
-    position: relative;
+    background-position: relative;
+    background-attachment: fixed;
     background-image:url('./Images/portfolio_background.jpg');
-    height: 100vh;
+    height: 100%;
 }
 
+
+/* header styling */
 .contentHeading {
     color: #d0d79c;
 }
 
-.header {
+.dropDownBtn {
+    margin-top: -4rem;
+    margin-right: 1rem;
+}
+
+header {
     color: #d0d79c;
 }
 
@@ -28,11 +34,55 @@ body {
     width: 50%;
 }
 
-.dropDownBtn {
-    background-color: #d0d79c;
-    margin-top: -4rem;
-    margin-right: 1rem;
+.navDrop {
+    position: fixed;
+    margin-left: 95%;
 }
 
+
+/* body general */
+.mainDisplayContainer {
+    border: solid;
+    margin-top: 10rem;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 5rem;
+    text-align: center;
+    border-color: #d0d79c;
+    border-radius: 1rem;
+}
+
+
+/* footer styling */
+footer {
+    border: solid;
+    margin-top: 10rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+
+.github {
+    padding: .5rem;
+    border: solid;
+}
+
+.instagram {
+    padding: .5rem;
+    border: solid;
+}
+
+
+/* homepage styling */
+.homePageTopText {
+color:#d0d79c;
+}
 
 
