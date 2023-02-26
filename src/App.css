@@ -25,6 +25,13 @@ body {
     margin-left: 2rem;
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+.dropDownBtn {
+    background-color: #d0d79c;
+    margin-top: -4rem;
+    margin-right: 1rem;
 }
 
 

@@ -1,15 +1,26 @@
-import React from 'react';
-import { NavDropdown } from 'react-bootstrap';
-import './Navbar.css';
+import React from "react";
+import  Dropdown  from 'react-bootstrap/Dropdown';
+import { Nav } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 export default function Navbar() {
-    return(
-        <NavDropdown className='navDropdown' eventKey={1} title='test' id='basicNavDropdown'>
-            <div className='navBar col-sm-1'>
-            <button className='btn' id='projectsBtn'>My Projects</button>
-            <button className='btn' id='resume'>Resume</button>
-            <button className='btn' id='email'>Email Me</button>
-            </div>
-        </NavDropdown>
-    )
+  return (
+    <>
+    <Nav className="float-right">
+    <Dropdown>
+      <Dropdown.Toggle variant="dark" bg="dark" className="dropDownBtn">
+      <FontAwesomeIcon icon={faBars} />        
+      </Dropdown.Toggle>
+      <Dropdown.Menu>
+        <Dropdown.Item className="mainPageBtn">Home</Dropdown.Item>
+        <Dropdown.Item className="aboutMeBtn">About Me</Dropdown.Item>
+        <Dropdown.Item className="myProjectsBtn">My Projects</Dropdown.Item>
+        <Dropdown.Item className="resumeBtn">Resume</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+    </Nav>
+    </>
+  )
 }
+

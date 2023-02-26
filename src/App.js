@@ -1,18 +1,16 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
 import Header from "./components/Header";
 import About from "./components/About/About";
-import Navbar from "./components/Navbar/Navbar";
-import './App.css';
 import 'bootstrap';
+import './App.css';
 
 function App() {
-    return (
-        <div>
-            <Header />
-            <Navbar />
-            <About />
-        </div>
-    )
+    return <Routes>
+        <Route path="/" element={<><Header /><Home /></>}/>
+        <Route path="/About" element={<About />}/>
+    </Routes>
 }
 
 export default App;
