@@ -18,6 +18,7 @@ export default function Navbar() {
         <Dropdown.Item className="aboutMeBtn"><Link to="/about">About Me</Link></Dropdown.Item>
         <Dropdown.Item className="myProjectsBtn"><Link to="/projects">My Projects</Link></Dropdown.Item>
         <Dropdown.Item className="resumeBtn"><Link to="/resume">Resume</Link></Dropdown.Item>
+        <Dropdown.Item className="contactBtn"><Link to="/contact">Contact Me</Link></Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
     </Nav>

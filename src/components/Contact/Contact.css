@@ -1,0 +1,33 @@
+.thankYou {
+    color: #d0d79c;
+}
+
+.danger {
+    background-color: #FF5656;
+    border: solid;
+    border-color: black;
+    border-radius: .3rem;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#formName {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formEmail {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formMessage {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}

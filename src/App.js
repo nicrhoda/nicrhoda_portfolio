@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import About from "./components/About/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 import 'bootstrap';
 import './App.css';
@@ -15,7 +16,7 @@ function App() {
         <Route path="/about" element={<><Header /><About /><Footer /></>}/>
         <Route path="/projects" element={<><Header /><Projects /><Footer /></>}/>
         <Route path="/resume" element={<><Header /><Resume /><Footer /></>}/>
-        {/* finish routing after the rest of the pages are created */}
+        <Route path="/contact" element={<><Header /><Contact /><Footer /></>}/>
     </Routes>
 }
 

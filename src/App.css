@@ -53,6 +53,10 @@ header {
     border-radius: 1rem;
 }
 
+.contentHeading {
+    color:#d0d79c;
+}
+
 
 /* footer styling */
 footer {
