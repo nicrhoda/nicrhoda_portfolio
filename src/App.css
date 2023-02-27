@@ -42,12 +42,12 @@ header {
 
 /* body general */
 .mainDisplayContainer {
-    border: solid;
-    margin-top: 10rem;
+    border-style: dashed;
+    margin-top: 3rem;
     width: 70%;
     margin-right: 15%;
     margin-left: 15%;
-    padding: 5rem;
+    padding: 3rem;
     text-align: center;
     border-color: #d0d79c;
     border-radius: 1rem;
@@ -56,7 +56,6 @@ header {
 
 /* footer styling */
 footer {
-    border: solid;
     margin-top: 10rem;
     padding: 2rem;
     text-align: center;
@@ -84,5 +83,29 @@ color:#d0d79c;
 
 /* about page styling */
 
+
+/* projects page styling */
+.projectCards {
+    margin: 1rem;
+}
+.projectsCardTitle {
+    color:#d0d79c;
+}
+
+.projectsCardText {
+    text-decoration:underline;
+    font-weight: bold;
+    background-color: #373737;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.projectLink {
+    background-color: white;
+}
+
+.projectLink:hover {
+    cursor: pointer;
+}
 
 
