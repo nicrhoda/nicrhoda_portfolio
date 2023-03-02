@@ -14,8 +14,10 @@ export default function ContactForm() {
   const handleUserSubmit = async (e) => {
     e.preventDefault();
     
-
-    // add logic/regex to validate that email input field recieves email in correct format
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setError('Please input valid email:)')
+    }
 
 
     // checks to ensure all fields are completed
