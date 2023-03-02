@@ -7,6 +7,7 @@ import resume_copy from "./../Assets/resume_copy.pdf";
 export default function Resume () {
     return (
         <div className="mainDisplayContainer">
+            <h1 className="contentHeading">My Resume</h1>
             <Card className="resumeCard">
                 <Card.Img variant="top" src={resume_placeholder} />
                 <Card.Body>

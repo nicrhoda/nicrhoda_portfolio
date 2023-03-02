@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import "./Contact.css";
 
+// logic for form
 export default function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -13,13 +14,19 @@ export default function ContactForm() {
   const handleUserSubmit = async (e) => {
     e.preventDefault();
     
+
+    // add logic/regex to validate that email input field recieves email in correct format
+
+
+    // checks to ensure all fields are completed
     if (!name || !email || !message) {
       setError('Please complete all fields');
       return;
     }
 
     setIsSending(true);
-
+    
+    // using formspree to send messages through to email
     try {
       const response = await fetch("https://formspree.io/f/mbjeylwz", {
         method: "POST",
@@ -39,6 +46,8 @@ export default function ContactForm() {
     setIsSending(false);
   };
 
+  
+  // form created leveraging bootstrap
   return (
     <div className="mainDisplayContainer">
       <Form onSubmit={handleUserSubmit}>
