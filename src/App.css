@@ -294,6 +294,7 @@ color:#d0d79c;
 .resumeCardText {
     color:black;
     text-decoration: underline;
+    font-weight: 800;
 }
 
 .resumeCardTitle {
