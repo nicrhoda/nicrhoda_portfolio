@@ -84,7 +84,18 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* fix icon styling later */
+}
+
+.github { 
+    padding: .5rem;
+}
+
+.linkedin {
+    padding: .5rem;
+}
+
+.instagram {
+    padding: .5rem;
 }
 
 
@@ -239,6 +250,18 @@ footer {
     /* fix icon styling later */
 }
 
+.github { 
+    padding: .5rem;
+}
+
+.linkedin {
+    padding: .5rem;
+}
+
+.instagram {
+    padding: .5rem;
+}
+
 
 /* homepage styling */
 .homePageTopText {
@@ -303,4 +326,355 @@ color:#d0d79c;
     text-decoration: underline;
 }
 
+}
+
+
+/* SCREEN WIDTH BELOW 975PX */
+
+@media screen and (max-width: 975px) {
+
+
+    /* background placement */
+body {
+    color:#E3EEEB;
+    background-position: relative;
+    background-attachment: fixed;
+    background-image:url('./Images/portfolio_background.jpg');
+    height: 100%;
+}
+
+/* header styling */
+.contentHeading {
+    color: #d0d79c;
+}
+
+.dropDownBtn {
+    margin-top: -4rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    color: #d0d79c;
+}
+
+.name {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.navDrop {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.dropdown {
+    background-color: transparent;
+    width: 100vw;
+    margin-bottom: 5rem;
+}
+
+.activeTab {
+    background-color: #E3EEEB;
+}
+
+
+/* body general */
+.mainDisplayContainer {
+    border-style: dashed;
+    margin-top: 3rem;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 3rem;
+    text-align: center;
+    border-color: #d0d79c;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentHeading {
+    color:#d0d79c;
+}
+
+
+/* footer styling */
+footer {
+    margin-top: 10rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* fix icon styling later */
+}
+
+.github { 
+    padding: .5rem;
+}
+
+.linkedin {
+    padding: .5rem;
+}
+
+.instagram {
+    padding: .5rem;
+}
+
+
+/* homepage styling */
+.homePageTopText {
+color:#d0d79c;
+}
+
+.profilePic {
+    border-radius: 50%;
+    max-width: 10rem;
+    margin-top: 10rem;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* projects page styling */
+.projectCards {
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 14rem;
+}
+
+.projectsCardTitle {
+    color:#d0d79c;
+    font-size: 60%;
+}
+
+.projectsCardText {
+    text-decoration:underline;
+    font-weight: bold;
+    background-color: #373737;
+    border-radius: .5rem;
+    font-size: 50%;
+}
+
+.projectLink {
+    background-color: white;
+    font-size: 50%;
+    padding: 1px;
+}
+
+.projectLink:hover {
+    cursor: pointer;
+}
+
+
+/* resume page */
+.resumeCard {
+    margin-top: 3rem;
+}
+
+.resumeCardText {
+    color:black;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.resumeCardTitle {
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+}
+
+
+/* SCREEN WIDTH BELOW 400PX */
+@media screen and (max-width: 400px) {
+
+
+       /* background placement */
+body {
+    color:#E3EEEB;
+    background-position: relative;
+    background-attachment: fixed;
+    background-image:url('./Images/portfolio_background.jpg');
+    height: 100%;
+}
+
+/* header styling */
+.contentHeading {
+    color: #d0d79c;
+}
+
+.dropDownBtn {
+    margin-top: -4rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    color: #d0d79c;
+}
+
+.name {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.navDrop {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.dropdown {
+    background-color: transparent;
+    width: 100vw;
+    margin-bottom: 5rem;
+}
+
+.dropDownBtn {
+    margin-left: 300%;
+}
+
+.activeTab {
+    background-color: #E3EEEB;
+}
+
+
+/* body general */
+.mainDisplayContainer {
+    border-style: dashed;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 1rem;
+    text-align: center;
+    border-color: #d0d79c;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentHeading {
+    color:#d0d79c;
+}
+
+
+/* footer styling */
+footer {
+    margin-top: 10rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* fix icon styling later */
+}
+
+.github { 
+    padding: .5rem;
+}
+
+.linkedin {
+    padding: .5rem;
+}
+
+.instagram {
+    padding: .5rem;
+}
+
+
+/* homepage styling */
+.homePageTopText {
+color:#d0d79c;
+}
+
+.profilePic {
+    border-radius: 50%;
+    max-width: 10rem;
+    margin-top: 10rem;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* projects page styling */
+.projectCards {
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.projectsCardTitle {
+    color:#d0d79c;
+    font-size: 60%;
+    margin-top: -2rem;
+}
+
+.projectsCardText {
+    text-decoration:underline;
+    font-weight: bold;
+    background-color: #373737;
+    border-radius: .5rem;
+    font-size: 25%;
+    margin-top: -.5rem;
+    padding: .15rem;
+}
+
+.projectLink {
+    background-color: white;
+    font-size: 50%;
+    margin-top: -3rem;
+    padding: 0rem;
+}
+
+.projectLink:hover {
+    cursor: pointer;
+}
+
+
+/* resume page */
+.resumeCard {
+    margin-top: 3rem;
+}
+
+.resumeCardText {
+    color:black;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.resumeCardTitle {
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
 }
