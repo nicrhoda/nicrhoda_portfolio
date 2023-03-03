@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer () {
     return (
@@ -12,6 +13,11 @@ export default function Footer () {
         <a href='https://github.com/nicrhoda' target="_blank" rel='noopener noreferrer'>
             <FontAwesomeIcon icon={faGithub} />
         </a>
+        </div>
+        <div className='linkedin'>
+            <a href='https://www.linkedin.com/in/nic-rhoda-047164249/' target="_blank" rel='noopener noreferrer'>
+                <FontAwesomeIcon icon={faLinkedin} />
+            </a>
         </div>
         <div className='instagram'>
             <a href='https://www.instagram.com/nicrhoda/' target="_blank" rel='noopener noreferrer'>
