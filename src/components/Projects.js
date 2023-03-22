@@ -7,10 +7,38 @@ import fitLyfe from "./../Images/fitLyfe.png";
 import paper_hands from "./../Images/paper_hands.png";
 import techBlog from "./../Images/techBlog.png";
 import noteTaker from "./../Images/noteTaker.png";
+import teeTime from "./../Images/tee_time_sc.png";
 
 export default function Projects() {
   return (
     <div className="mainDisplayContainer">
+      <a
+        href="https://t33-time.herokuapp.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Card className="bg-dark text-white teeTimeCard projectCards">
+          <Card.Img src={teeTime} alt="Tee Time Homepage" />
+          <Card.ImgOverlay>
+            <Card.Title className="projectsCardTitle">Tee Time</Card.Title>
+            <Card.Text className="projectsCardText">
+              Tee Time is an app that I created for an in class project that
+              utilizes the MERN stack. Using Apollo provider and Apollo server
+              it makes requests to a Mongo Database to save and modify user
+              data.
+            </Card.Text>
+            <a 
+              href="https://github.com/d3v-d3mons/tee_time"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <Button variant="outline-secondary" className="projectLink">
+                  Tee Time Repo
+                </Button>
+              </a>
+          </Card.ImgOverlay>
+        </Card>
+      </a>
       <a
         href="https://serene-tor-70980.herokuapp.com"
         target="_blank"
@@ -101,9 +129,11 @@ export default function Projects() {
           <Card.ImgOverlay>
             <Card.Title className="projectsCardTitle">Paper Hands</Card.Title>
             <Card.Text className="projectsCardText">
-              Paper hands was the first group project that I was a part of.  Our application is a stock market 
-              and cryptocurrency tracking app.  Using a basic html and css front end and basic javascript backend 
-              it utilizes api's to fetch and display data and allows the user to save stocks or cryptocurrencies.
+              Paper hands was the first group project that I was a part of. Our
+              application is a stock market and cryptocurrency tracking app.
+              Using a basic html and css front end and basic javascript backend
+              it utilizes api's to fetch and display data and allows the user to
+              save stocks or cryptocurrencies.
             </Card.Text>
             <a
               href="https://github.com/Paper-Hands/paper-hands"
@@ -127,9 +157,10 @@ export default function Projects() {
           <Card.ImgOverlay>
             <Card.Title className="projectsCardTitle">Tech Blog</Card.Title>
             <Card.Text className="projectsCardText">
-              Tech Blog is a blog post site where a user can create a profile and create posts that will display on 
-              the homepage when they are logged in. The app utilizes handlebars for a templating engine and uses express
-              middleware for routing and javascript backend. 
+              Tech Blog is a blog post site where a user can create a profile
+              and create posts that will display on the homepage when they are
+              logged in. The app utilizes handlebars for a templating engine and
+              uses express middleware for routing and javascript backend.
             </Card.Text>
             <a
               href="https://github.com/nicrhoda/Blog"
@@ -153,9 +184,10 @@ export default function Projects() {
           <Card.ImgOverlay>
             <Card.Title className="projectsCardTitle">Note Taker</Card.Title>
             <Card.Text className="projectsCardText">
-              Note Taker is a basic app that allows the user to add notes to a list with a title and description.  
-              It utilizes an express middleware and javascript backend to capture user input and storing them in json
-              format so that data persists on the page.
+              Note Taker is a basic app that allows the user to add notes to a
+              list with a title and description. It utilizes an express
+              middleware and javascript backend to capture user input and
+              storing them in json format so that data persists on the page.
             </Card.Text>
             <a
               href="https://github.com/nicrhoda/note-taker"

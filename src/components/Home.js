@@ -11,7 +11,7 @@ export default function Home() {
             <img className="profilePic" src={profile} alt="profile" />
             <div className='aboutMe'>
             <h1 className='contentHeading'>About Me</h1>
-            <h3 className='aboutMeContent'>I've always had an interest in computers and coding, now I'm trying to marke
+            <h3 className='aboutMeContent'>I've always had an interest in computers and coding, now I'm trying to make
             it into a career.  Outside of the realm of my keyboard and various programming languages, I really enjoy 
             the outdoors, especially swimming! <FontAwesomeIcon icon={faPersonSwimming}></FontAwesomeIcon>
             </h3>

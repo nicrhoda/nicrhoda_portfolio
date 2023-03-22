@@ -107,7 +107,8 @@ color:#d0d79c;
 .profilePic {
     border-radius: 50%;
     max-width: 10rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .aboutMe {
@@ -271,7 +272,7 @@ color:#d0d79c;
 .profilePic {
     border-radius: 50%;
     max-width: 10rem;
-    margin-top: 10rem;
+    margin-top: 3rem;
 }
 
 .aboutMe {
@@ -384,7 +385,7 @@ header {
 /* body general */
 .mainDisplayContainer {
     border-style: dashed;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     width: 70%;
     margin-right: 15%;
     margin-left: 15%;
@@ -437,7 +438,8 @@ color:#d0d79c;
 .profilePic {
     border-radius: 50%;
     max-width: 10rem;
-    margin-top: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .aboutMe {
