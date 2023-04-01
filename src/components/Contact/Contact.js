@@ -52,19 +52,19 @@ export default function ContactForm() {
   // form created leveraging bootstrap
   return (
     <div className="mainDisplayContainer">
-      <Form onSubmit={handleUserSubmit}>
+      <h2 className="contactHeading">Any questions? <div className="message">Send me a message!</div></h2>
+      <Form onSubmit={handleUserSubmit} className="contactForm">
         <Form.Group className="mb-3" id="formName">
-          <Form.Label>Name</Form.Label>
+          <Form.Label className="input">Name:</Form.Label>
           <Form.Control
             placeholder="enter name here"
-            className="nameInput"
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
         </Form.Group>
         <Form.Group className="mb-3" id="formEmail">
-          <Form.Label>Email</Form.Label>
+          <Form.Label className="input">Email:</Form.Label>
           <Form.Control
             placeholder="enter email here"
             className="emailInput"
@@ -74,7 +74,7 @@ export default function ContactForm() {
           />
         </Form.Group>
         <Form.Group className="mb-3" id="formMessage">
-          <Form.Label>Message</Form.Label>
+          <Form.Label className="input">Add message here:</Form.Label>
           <Form.Control
             as="textarea"
             placeholder="enter message here"
@@ -85,7 +85,7 @@ export default function ContactForm() {
           />
         </Form.Group>
         {error && <div className="danger">{error}</div>}
-        {isSent && <div className="thankYou">Your message has been sent, Thank You!</div>}
+        {isSent && <div className="thankYou">Your message has been sent, I'll respond as soon as I can. Thank You!</div>}
         <Button type="submit" disabled={isSending}>
           {isSending ? "Sending..." : "Send"}
         </Button>

@@ -2,6 +2,14 @@
     color: #d0d79c;
 }
 
+.contactForm {
+    margin-top: 3.5rem;
+}
+
+.contactHeading {
+    color: #d0d79c;
+}
+
 .danger {
     background-color: #FF5656;
     border: solid;
@@ -10,6 +18,11 @@
     width: 25%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.input {
+    color: #d0d79c;
+    text-decoration: underline;
 }
 
 #formName {
