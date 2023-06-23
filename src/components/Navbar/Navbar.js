@@ -3,7 +3,7 @@ import  Dropdown  from 'react-bootstrap/Dropdown';
 import { Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons"
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 export default function Navbar() {
   
@@ -17,15 +17,15 @@ export default function Navbar() {
   return (
     <>
     <Nav className="navDrop">
-    <Dropdown autoClose={false}>
+    <Dropdown autoClose={false} defaultShow={true}>
       <Dropdown.Toggle variant="dark" bg="dark" className="dropDownBtn">
       <FontAwesomeIcon icon={faBars} />        
       </Dropdown.Toggle>
       <Dropdown.Menu className="dropdown">
-        <Dropdown.Item className={activeItem === "/" ? "activeTab" : ""}><Link to="/">Home</Link></Dropdown.Item>
-        <Dropdown.Item className={activeItem === "/projects" ? "activeTab" : ""}><Link to="/projects">My Projects</Link></Dropdown.Item>
-        <Dropdown.Item className={activeItem === "/resume" ? "activeTab" : ""}><Link to="/resume">Resume</Link></Dropdown.Item>
-        <Dropdown.Item className={activeItem === "/contact" ? "activeTab" : ""}><Link to="/contact">Contact Me</Link></Dropdown.Item>
+        <Dropdown.Item href="/" className={activeItem === "/" ? "activeTab" : "dropdownSelect"}>Home</Dropdown.Item>
+        <Dropdown.Item href="/projects" className={activeItem === "/projects" ? "activeTab" : "dropdownSelect"}>My Projects</Dropdown.Item>
+        <Dropdown.Item href="/resume" className={activeItem === "/resume" ? "activeTab" : "dropdownSelect"}>Resume</Dropdown.Item>
+        <Dropdown.Item href="/contact" className={activeItem === "/contact" ? "activeTab" : "dropdownSelect"}>Contact Me</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
     </Nav>

@@ -14,6 +14,29 @@ a:hover {
     color: #d0d79c;
 }
 
+/* basic dropdown styles */
+.dropdownSelect {
+    color: #d0d79c;
+    border-radius: .3rem;
+}
+
+.dropdownSelect:hover {
+    background-color: #8e8e8e;
+    color: #d0d79c;
+}
+
+.activeTab {
+    background-color: #373737;
+    color: #d0d79c;
+    border-radius: .3rem;
+}
+
+.activeTab:hover {
+    background-color: #8e8e8e;
+    color: #d0d79c;
+    text-decoration: underline;
+}
+
 /* STANDARD VIEW STYLING */
 
 @media screen and (min-width: 1100px) {
@@ -57,10 +80,6 @@ header {
 
 .dropdown {
     background-color: transparent;
-}
-
-.activeTab {
-    background-color: #373737;
 }
 
 
@@ -223,10 +242,6 @@ header {
     margin-bottom: 5rem;
 }
 
-.activeTab {
-    background-color: #373737;
-}
-
 
 /* body general */
 .mainDisplayContainer {
@@ -387,10 +402,6 @@ header {
     background-color: transparent;
     width: 100vw;
     margin-bottom: 5rem;
-}
-
-.activeTab {
-    background-color: #373737;
 }
 
 
@@ -564,10 +575,6 @@ header {
 
 .dropDownBtn {
     margin-left: 300%;
-}
-
-.activeTab {
-    background-color: #373737;
 }
 
 
