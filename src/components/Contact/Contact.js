@@ -89,7 +89,7 @@ export default function ContactForm() {
         </Form.Group>
         {error && <div className="danger">{error}</div>}
         {isSent && <div className="thankYou">Your message has been sent, I'll respond as soon as I can. Thank You!</div>}
-        <Button type="submit" disabled={isSending}>
+        <Button type="submit" disabled={isSending} id="contactFormSubmitBtn">
           {isSending ? "Sending..." : "Send"}
         </Button>
       </Form>
