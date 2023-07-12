@@ -61,6 +61,7 @@ export default function ContactForm() {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            id="name"
           />
         </Form.Group>
         <Form.Group className="mb-3" id="formEmail">
@@ -71,6 +72,7 @@ export default function ContactForm() {
             type="text"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            id="email"
           />
         </Form.Group>
         <Form.Group className="mb-3" id="formMessage">
@@ -82,6 +84,7 @@ export default function ContactForm() {
             type="text"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
+            id="message"
           />
         </Form.Group>
         {error && <div className="danger">{error}</div>}
