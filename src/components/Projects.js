@@ -8,10 +8,38 @@ import paper_hands from "./../Images/paper_hands.png";
 import techBlog from "./../Images/techBlog.png";
 import noteTaker from "./../Images/noteTaker.png";
 import teeTime from "./../Images/tee_time_sc.png";
+import geckoMonitor from "./../Images/gecko_monitor_img.png"
 
 export default function Projects() {
   return (
     <div className="mainDisplayContainer">
+      <a
+        href="https://gecko-monitor.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Card className="bg-dark text-white teeTimeCard projectCards">
+          <Card.Img src={geckoMonitor} alt="Gecko Monitor Homepage" />
+          <Card.ImgOverlay>
+            <Card.Title className="projectsCardTitle">Gecko Monitor</Card.Title>
+            <Card.Text className="projectsCardText">
+              Gecko Monitor is an app I created using AWS Amplify, React, Python, and DynamoDB to easily 
+              monitor the conditions of my pet gecko's enclosure while I'm away from home. 
+              More information about how the project came together can be found in the pages 
+              About tab.
+            </Card.Text>
+            <a 
+              href="https://github.com/d3v-d3mons/tee_time"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <Button variant="outline-secondary" className="projectLink">
+                  Gecko Monitor UI repo
+                </Button>
+              </a>
+          </Card.ImgOverlay>
+        </Card>
+      </a>
       <a
         href="https://t33-time.herokuapp.com"
         target="_blank"
