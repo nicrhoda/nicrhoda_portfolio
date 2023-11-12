@@ -1,8 +1,8 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import resume_placeholder from "./../Images/resume_placeholder.png"
+import resume_placeholder from "./../Images/nicholas_rhoda_resume.png"
 import { Button } from "react-bootstrap";
-import resume_copy from "./../Assets/resume_copy.pdf";
+import "./../Assets/Resume_08_2023.pdf";
 
 export default function Resume () {
     return (
@@ -15,7 +15,7 @@ export default function Resume () {
                     <Card.Text className="resumeCardText">
                         An overview of my resume along with this link to download a copy of it.
                     </Card.Text>
-                    <a href={resume_copy} download><Button variant="outline-secondary">Download</Button></a>
+                    <a href="./Assets/Resume_08_2023.pdf" download><Button variant="outline-secondary">Download</Button></a>
                 </Card.Body>
             </Card>
         </div>
