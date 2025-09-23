@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "./../Images/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPersonSwimming } from "@fortawesome/free-solid-svg-icons";
+import { faPersonSwimming, faDumbbell, faHeadset, faVrCardboard } from "@fortawesome/free-solid-svg-icons";
 import Typewriter from "typewriter-effect";
 
 export default function Home() {
@@ -26,18 +26,20 @@ export default function Home() {
           }}
         />
       </h1>
-      <h3 className="homePageBottomText">
-        I recently finshed a full-stack coding bootcamp, and I'm working towards
-        my first job in the field.
-      </h3>
       <img className="profilePic" src={profile} alt="profile" />
       <div className="aboutMe">
         <h1 className="contentHeading">About Me</h1>
         <h3 className="aboutMeContent">
-          I've always had an interest in computers and coding, now I'm trying to
-          make it into a career. Outside of the realm of my keyboard and various
-          programming languages, I really enjoy the outdoors, especially
-          swimming! <FontAwesomeIcon icon={faPersonSwimming}></FontAwesomeIcon>
+          Welcome to my portfolio! I'm a passionate web developer with a strong interest in building sleek, responsive websites 
+          and user-friendly interfaces. When I'm not coding, you'll find me weightlifting at the gym <FontAwesomeIcon icon={faDumbbell}/>
+          , swimming laps <FontAwesomeIcon icon={faPersonSwimming} />, flying FPV drones <FontAwesomeIcon icon={faVrCardboard} />
+          , or diving into a good gaming session <FontAwesomeIcon icon={faHeadset} />. I love blending creativity with technical skills—whether it's crafting a personal
+           project or optimizing a client’s web presence.
+
+          Feel free to check out my web development projects
+          , view my resume
+          , or get in touch
+          through the contact form below. I'm always open to new opportunities, collaborations, or just talking shop about tech and hobbies.
         </h3>
       </div>
     </div>
